@@ -142,6 +142,8 @@ export class HotTableComponent implements AfterContentInit, OnChanges, OnDestroy
   @Input() visibleRows: number;
   @Input() width: number| (() => number);
   @Input() wordWrap: boolean;
+  @Input() rowHeaderFixedOffset: number| (() => number);
+  @Input() colHeaderFixedOffset: number| (() => number);
 
   @Output() afterBeginEditing: EventEmitter<any[]> = new EventEmitter();
   @Output() afterCellMetaReset: EventEmitter<any[]> = new EventEmitter();

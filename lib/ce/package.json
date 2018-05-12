@@ -1,5 +1,6 @@
 {
   "name": "@handsontable/angular",
+  "private": true,
   "version": "1.0.0-beta4",
   "peerDependencies": {
     "handsontable": "0.35.1",

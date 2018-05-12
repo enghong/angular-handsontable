@@ -125,6 +125,8 @@ export class HotColumnComponent implements OnInit, OnChanges, OnDestroy {
   @Input() visibleRows: number;
   @Input() width: number| (() => number);
   @Input() wordWrap: boolean;
+  @Input() rowHeaderFixedOffset: number| (() => number);
+  @Input() colHeaderFixedOffset: number| (() => number);
 
   constructor(private inj: Injector) {
     this.parentComponent = this.inj.get(HotTableComponent);

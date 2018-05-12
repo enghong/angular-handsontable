@@ -2,7 +2,7 @@ import { Injectable, SimpleChanges } from '@angular/core';
 
 const AVAILABLE_OPTIONS: string[] = ['allowEmpty', 'allowHtml', 'allowInsertColumn', 'allowInsertRow',
 'allowInvalid', 'allowRemoveColumn', 'allowRemoveRow', 'autoColumnSize', 'autoComplete', 'autoRowSize',
-'autoWrapCol', 'autoWrapRow', 'cell', 'cells', 'checkedTemplate', 'className', 'colHeaders', 'columnHeaderHeight',
+'autoWrapCol', 'autoWrapRow', 'cell', 'cells', 'checkedTemplate', 'className', 'colHeaderFixedOffset', 'colHeaders', 'columnHeaderHeight',
 'columns', 'columnSorting', 'colWidths', 'commentedCellClassName', 'comments', 'contextMenu', 'copyable',
 'copyPaste', 'correctFormat', 'currentColClassName', 'currentHeaderClassName', 'currentRowClassName',
 'customBorders', 'data', 'dataSchema', 'dateFormat', 'debug', 'defaultDate', 'disableVisualSelection',
@@ -12,7 +12,7 @@ const AVAILABLE_OPTIONS: string[] = ['allowEmpty', 'allowHtml', 'allowInsertColu
 'maxCols', 'maxRows', 'mergeCells', 'minCols', 'minRows', 'minSpareCols', 'minSpareRows', 'multiSelect',
 'noWordWrapClassName', 'numericFormat', 'observeChanges', 'observeDOMVisibility', 'outsideClickDeselects',
 'persistentState', 'placeholder', 'placeholderCellClassName', 'preventOverflow', 'readOnly',
-'readOnlyCellClassName', 'renderAllRows', 'renderer', 'rowHeaders', 'rowHeaderWidth', 'rowHeights',
+'readOnlyCellClassName', 'renderAllRows', 'renderer', 'rowHeaderFixedOffset', 'rowHeaders', 'rowHeaderWidth', 'rowHeights',
 'search', 'selectOptions', 'skipColumnOnPaste', 'sortByRelevance', 'sortFunction', 'sortIndicator',
 'source', 'startCols', 'startRows', 'stretchH', 'strict', 'tableClassName', 'tabMoves', 'title',
 'trimDropdown', 'trimWhitespace', 'type', 'uncheckedTemplate', 'undo', 'validator',
